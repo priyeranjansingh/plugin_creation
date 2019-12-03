@@ -19,14 +19,10 @@ if (!defined('HW_PLUGIN_PATH')){
    define('HW_PLUGIN_PATH',  plugin_dir_path( __FILE__ ));
 }
 
-   
+//BELOW CODE ADD NAVIGATION LINK ON LEFT SIDE MENU IN WORDPRESS   
 add_action('admin_menu', 'cwb_menu_pages');
 function cwb_menu_pages(){
-	$user_roles = wp_get_current_user();
-    $current_user_role = $user_roles->roles[0]; 
-	if (($current_user_role == "administrator")){
-		add_menu_page('PAGE NAME', 'PAGE NAME', 'manage_options', 'URL TO DISPLAY', 'FUNCTION_NAME','dashicons-analytics',66 );
-	}
+     add_menu_page('PAGE NAME', 'PAGE NAME', 'manage_options', 'URL TO DISPLAY', 'FUNCTION_NAME','dashicons-analytics',66 );
 }
 
 //here is code create database if needed,other wise comment this code
