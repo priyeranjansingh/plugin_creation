@@ -2,7 +2,7 @@
 /**
  * Plugin Name: HELLO WORLD
  * Plugin URI: 
- * Description: Add available city in which your order will deliver
+ * Description: WRITE YOU DESCRIPTION THAT DEFINES THE USE AND FUNCTIONALITY OF PLUGIN
  * Version: 1.0.0
  * Author: PRIYE RANJAN
  * Author URI: 
